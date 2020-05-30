@@ -41,7 +41,8 @@ This Project is created with:
 ## Database
   * Database : MySQL
   * Database Provider : Amazon Web Services
-
+  
+  Advantages: MySQL is preffered for its data security, high performance, Scalability and its low cost.
 ## Web server
   * App Services : Azure Web Services
   
