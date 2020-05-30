@@ -25,6 +25,8 @@ if(mysqli_num_rows($result) > 0)
 {
  while($row = mysqli_fetch_array($result))
  {
+   $read = $row['is_read'];
+   $click = $row['is_clicked'];
   $sno=$row['sno'];
   $checkTime = $row['time1'];
   date_default_timezone_set('GMT');
@@ -52,16 +54,43 @@ if(mysqli_num_rows($result) > 0)
     $time2=intval($time2/3600);
     $time3 = $time2.' '.$d.' '."ago";
   }
+if($read == 0 && $click == 0)
+{
+  $output .= '
+   <li>
+
+   <a href="is_clicked.php?sn='.$sno.'&&id='.$userr_id.'" style="color:#fcba03"><strong>'.$row["user"].' </strong></a><a>'.$row["content"].' <small class="pull-right">'.$time3.' </small></a>
+   
+   </li>
+   <div class="pull-right action-buttons" ><a href="#" class="trash"><em class="fa fa-square-o" ></em></a></div>
+   <li class="divider"></li>
+   ';
+}
+else if($read == 1 && $click == 0)
+{
+  $output .= '
+   <li>
+
+   <a href="is_clicked.php?sn='.$sno.'&&id='.$userr_id.'" style="color:#fcba03"><strong>'.$row["user"].' </strong></a><a>'.$row["content"].' <small class="pull-right">'.$time3.' </small></a>
+   
+   </li>
+   <div class="pull-right action-buttons" ><a href="#" class="trash"><em class="fa fa-check-square-o" ></em></a></div>
+   <li class="divider"></li>
+   ';
+}
+else
+{
  $output .= '
    <li>
 
    <a href="is_clicked.php?sn='.$sno.'&&id='.$userr_id.'" style="color:#fcba03"><strong>'.$row["user"].' </strong></a><a>'.$row["content"].' <small class="pull-right">'.$time3.' </small></a>
    
    </li>
-   
+   <div class="pull-right action-buttons" ><a href="#" class="trash"><em class="fa fa-check-square" ></em></a></div>
    <li class="divider"></li>
    ';
- }
+}
+  }
  $output .=' <li>
  <div class="all-button"><a href="is_clicked.php?sn=0&&id='.$userr_id.'">
    <em class="fa fa-inbox"></em> <strong>Mark all as Read</strong>
