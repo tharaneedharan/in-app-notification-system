@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="img/admin.png" type="image/icon type">
+<title>Examly - Project Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hero">
+  <div class="form-box">
+    <div class="button-box">
+      <div id="btn"></div>
+      <button type="button" class="toggle-btn" onClick="login()">Log In</button>
+      <button type="button" class="toggle-btn" onClick="register()">Register</button>
+    </div>
+    <div class="social-icons"> <img src="img/admin1.png"> </div>
+    <form id="login" action="validate.php" class="input-group">
+      <input type="text" class="input-field" name="user" placeholder="Username" required>
+	  <input type="password" class="input-field" name="pass" placeholder="Password" required>
+	  <!-- <input type='hidden' class="check-box" value='0' name='check'> -->
+      <input type="checkbox" class="check-box" value='1' name="check"><text style="font-size: 18px;color: rgb(0, 0, 0);">Remember me</text>
+		<button type="submit" class="submit-btn">Log in</button>
+    </form>
+	  <form id="register" action="validate_reg.php" class="input-group">
+      <input type="text" class="input-field" name="user" placeholder="Username" required>
+		  <input type="email" class="input-field" name="mail" placeholder="Email Id" required>
+		  <input type="text" class="input-field" name="dept" pattern="[a-z]{3}" title="Eg: eie (small letters)" placeholder="Department(Eg: eie, eee...)" required>
+	  <input type="password" class="input-field" name="pass" placeholder="Password" required>
+	  <input type='hidden' class="check-box" value='0' name='isadmin'>
+      <input type="checkbox" class="check-box" value='1' name="isadmin"><text style="font-size: 18px;color: rgb(0, 0, 0);">Check if admin</text>
+		<button type="submit" class="submit-btn">Register</button>
+    </form>
+  </div>
+</div>
+	
+	<script>
+	var x = document.getElementById("login");
+	var y = document.getElementById("register");
+	var z = document.getElementById("btn");
+		
+	function register()
+		{
+			x.style.left="-400px";
+			y.style.left="50px";
+			z.style.left="110px";	
+		}
+	function login()
+		{
+			x.style.left="50px";
+			y.style.left="450px";
+			z.style.left="0";	
+		}
+		
+	</script>
+</body>
+</html>
