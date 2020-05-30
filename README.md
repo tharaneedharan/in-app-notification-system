@@ -3,14 +3,14 @@
 * [Description](#Description)
 * [Technologies](#Technologies)
 * [list of files](#List-of-Files)
-* .[Database].(#Database)
-* .[Web server].(#Web-server)
-* .[Connectivity].(#Connectivity)
-* .[Credentials].(#Credentials)
-* .[API].(#API)
-* .[Execution Flow].(#Execution-Flow)
-* .[Adding Students].(#Adding-Students)
-* .[Contributors].(#Contributors)
+* [Database](#Database)
+* [Web server](#Web-server)
+* [Connectivity](#Connectivity)
+* [Credentials](#Credentials)
+* [API](#API)
+* [Execution Flow](#Execution-Flow)
+* [Adding Students](#Adding-Students)
+* [Contributors](#Contributors)
 
 ## Description
   This is add on system which is developed in order to trigger notifications to the user based on their conditions.
