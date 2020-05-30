@@ -79,7 +79,7 @@ Steps for Admin portal:
   * In that the admin can Send notifications to the selected set of students in the Send Notification division by providing the required informations as mentioned in that.
 
 ## Adding Students
-  In this portal, n number of students and admins ca be added with the register page found in the login page.
+  In this portal, n number of students and admins can be added with the register page found in the login page.
 
 ## Contributors
   * Tharaneedharan K (Sri Ramakrishna Engineering College, Coimbatore)
