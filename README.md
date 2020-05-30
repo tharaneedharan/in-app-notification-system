@@ -52,6 +52,7 @@ This Project is created with:
     Admin:
     * username : admin
     * password : admin@123
+    
     Student:
     * Username : student1
     * Password : student@123
@@ -66,9 +67,9 @@ This Project is created with:
 Steps for students portal:
   * Login with the student id in the main login page
   * It redirects to the Student Portal
-  * The notification icon on the top right corner can be clicked to view the notifications available for the selected student.
-  * The two options will be there in the last is to mark all the notifications as read and Delete the readed and marked notifications.
-  * In the Student portal there will be tab in the left menu name Courses which when clicked will redirect to a page named courses.
+  * The notification icon on the top right corner can be used to view the notifications available for the selected student.
+  * At last two options will be available, one is to mark all the notifications as read and the another Delete the readed and marked notifications.
+  * A tab named courses is present in the left side menu bar of the student portal will redirect to the page named courses when it is clicked.
   * In this courses page the selected courses that are available for them and can mark it as read and it will be notified to all the students.
   
 Steps for Admin portal:
