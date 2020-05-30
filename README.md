@@ -49,13 +49,15 @@ This Project is created with:
   Weburl : http://asguardians.azurewebsites.net/notification_manager/index.html
   
 ### Credentials
-    Admin:
-    * username : admin
-    * password : admin@123
+    Staff:
+    * username : staff1
+    * password : staff@123
     
     Student:
     * Username : student1
     * Password : student@123
+    
+    The Credentials will continue for the students named 1 to 25 with same password and more number of students can also be added
     
 ## API
   * fetch api - This api is used to retrive the data from the database and post it as a json variable to the notification dropdown panel.
