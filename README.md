@@ -70,6 +70,8 @@ Steps for students portal:
   * Login with the student id in the main login page
   * It redirects to the Student Portal
   * The notification icon on the top right corner can be used to view the notifications available for the selected student.
+  * In that there will be time stamp available for each notification and not read, read but not clicked and read and clicked in the form of icons.
+  * If a notification is clicked then the notification is marked as clicked.
   * At last two options will be available, one is to mark all the notifications as read and the another Delete the readed and marked notifications.
   * A tab named courses is present in the left side menu bar of the student portal will redirect to the page named courses when it is clicked.
   * In this courses page the selected courses that are available for them and can mark it as read and it will be notified to all the students.
