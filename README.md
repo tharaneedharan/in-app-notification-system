@@ -76,14 +76,14 @@ Steps for students portal:
   * A tab named courses is present in the left side menu bar of the student portal will redirect to the page named courses when it is clicked.
   * In this courses page the selected courses that are available for them and can mark it as read and it will be notified to all the students.
   
-Steps for Admin portal:
-  * Login with the admin id in the main login page
+Steps for Staff portal:
+  * Login with the staff id in the main login page
   * It redirects to the Staff Portal
-  * In that the admin can add the New courses to the students in the add course division by providing the required informations as mentioned in that.
-  * In that the admin can Send notifications to the selected set of students in the Send Notification division by providing the required informations as mentioned in that.
+  * In that the staff can add the New courses to the students in the add course division by providing the required informations as mentioned in that.
+  * In that the staff can Send notifications to the selected set of students in the Send Notification division by providing the required informations as mentioned in that.
 
 ## Adding Students
-  In this portal, n number of students and admins can be added with the register page found in the login page.
+  In this portal, n number of students and staffs can be added with the register page found in the login page.
 
 ## Contributors
   * Tharaneedharan K (Sri Ramakrishna Engineering College, Coimbatore)
